@@ -1,6 +1,6 @@
 package day08_tasks;
 
-public class HTTP_code_list$$ {
+public class  HTTP_code_list$$ {
     public static void main(String[] args) {
 
         // solution 2 : with switch statement
