@@ -1,7 +1,10 @@
 package day06;
 
+import java.util.Scanner;
+
 public class NetIncomeCalc {
     public static void main(String[] args) {
+//        double salary = new Scanner(System.in).nextDouble(); this solves orange highliht warning (like: Condition 'salary >= 130' is always 'false')
         double salary = 110,
                 tax = 0;
         boolean isMarried = true;

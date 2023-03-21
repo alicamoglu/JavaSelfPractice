@@ -2,7 +2,7 @@ package replit;
 import java.lang.Math;
 import java.util.Scanner;
 public class replitTry {
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
         //DO NOT TOUCH BELOW
 //        Scanner s = new Scanner(System.in);
 //        String word = s.next();
@@ -145,8 +145,8 @@ public class replitTry {
         System.out.println("First name: " + firstName);
         System.out.println("Last name: " + lastName);
         System.out.println("Domain: " + damain);*/
-
-/*            // sandwich
+                   // sandwich
+/*
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
         System.out.println(str.length());
@@ -204,5 +204,36 @@ public class replitTry {
         cube();
     }*/
 
-    }
+    //}
+//
+//    public static boolean simpleRoomBook(boolean isAvailable,int month, int day, int year){
+//        // WRITE YOUR CODE BELOW:
+//        isAvailable = false;
+//        if (isAvilable == true){
+//
+//            if (year != 2018) {
+//                return true;
+//            }else if ( 8 < month && month <= 12) {
+//                return true;
+//            } else {
+//                if (month == 1 && day < 7){
+//                    return true;
+//                }else if (month == 8 && day > 7){
+//                    return true;
+//                }
+//
+//        }
+
+
+
+
+//    //return false;
+//
+//
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        System.out.println(simpleRoomBook(in.nextBoolean(), in.nextInt(), in.nextInt(), in.nextInt()));
+//
+//    }
+
 }

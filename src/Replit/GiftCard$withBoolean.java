@@ -1,8 +1,8 @@
-package Replit;
+package replit;
 
 import java.util.Scanner;
 
-public class  GiftCard {
+public class GiftCard$withBoolean {
     //https://replit.com/@javab29/I-Gift-Card-alicamoglu#README.md
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
