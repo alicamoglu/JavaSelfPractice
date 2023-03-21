@@ -1,7 +1,7 @@
-package Replit;
-
+package replit;
+import java.lang.Math;
 import java.util.Scanner;
-public class ReplitTry {
+public class replitTry {
     public static void main(String[] args) {
         //DO NOT TOUCH BELOW
 //        Scanner s = new Scanner(System.in);
@@ -85,7 +85,7 @@ public class ReplitTry {
         System.out.println(word1.length()<word2.length()?word2:word1.length()>word2.length()?word1:"");
 */
 
-        Scanner s = new Scanner(System.in);
+/*        Scanner s = new Scanner(System.in);
         String order = s.next();
 
         //WRITE YOUR CODE BELOW THIS LINE:
@@ -97,6 +97,112 @@ public class ReplitTry {
                 break;
             case "burger":
                 System.out.printf("Your total is $" + "%1.2f",burgerPrice);   // Todo printlnf gives error "ln" in the print "\n" adding possible.
+                */
+
+/*
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();
+        String reverseResult = word.length()<5?"Too short!": 5<word.length()?"Too long!":new StringBuilder(word).reverse().toString();
+
+        System.out.println(reverseResult);
+*/
+
+/*        // Mail priority
+        Scanner s = new Scanner(System.in);
+        String email = s.nextLine();
+        System.out.println(email.contains("project") ? "priority" :email.contains("Alejandro")? "read": "don't read");*/
+
+/*        //midlle character
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();
+        byte remainder = (byte) (word.length() % 2);
+//        byte remainder = (byte)word.length() % 2;        //so requared int maybe:casting shoul accur after mod operation. right?
+//        int remainder = word.length() % 2;
+
+        switch (remainder){
+            case 1:
+                System.out.println(word.charAt(word.length()/2));
+                break;
+            case 0:
+                System.out.println(""+word.charAt(word.length()/2-1) + word.charAt(word.length()/2));
+        }*/
+
+        /*
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
+        int n = scan.nextInt();
+//        System.out.println(str.substring(n).contains(str.substring(n)));
+        System.out.println(str.substring(n).contains(str.substring(0,n))?"true":"false");
+*/
+
+/*        // mail parsts
+        Scanner scan = new Scanner(System.in);
+        String email = scan.next();
+        String firstName = email.substring(0,email.indexOf("_")),
+                lastName = email.substring(email.indexOf("_")+1,email.indexOf("@")),
+                damain = email.substring(email.indexOf("@")+1,email.indexOf("."));
+
+        System.out.println("First name: " + firstName);
+        System.out.println("Last name: " + lastName);
+        System.out.println("Domain: " + damain);*/
+
+/*            // sandwich
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
+        System.out.println(str.length());
+        System.out.println(str.replaceAll("bread","").length());
+
+        int repeating = (str.length() - str.replaceAll("bread","").length())/5;
+        if (repeating == 2){
+            String str1 = str.substring(str.indexOf("bread")+5,str.lastIndexOf("bread"));
+            if (str1.length() != 0) {
+                System.out.println(str1);
+            }else {
+                System.out.println("nothing");
+            }
+        }else {
+            System.out.println("nothing");
         }
+
+//       ALL THESE ARE TRY FOR SANDWİCH TASK JUST ABOVE
+//        if (repeating == 2 && str.replaceAll("bread","").length() != 0) {
+//            str = str.replace(str.substring(str.lastIndexOf("bread")),"");
+////            System.out.println(str);
+//            System.out.println(str.indexOf("bread")+5);
+//            str = str.replaceFirst(str.substring(0,str.indexOf("bread")+5),"");
+//            System.out.println(str);
+//        }else {
+//            System.out.println("nothing");
+//        }
+//        int breadFirst = str.indexOf("bread");
+
+//        String str1 = str.replace(str.substring(0,str.indexOf("bread")+5),"");
+//        System.out.println(str1);
+//        String str2 = str1.replace(str1.substring(str1.indexOf("bread")),"");
+//        System.out.println(str2);
+//        if (str.length()!= str1.length()&&str1.length()!=str2.length()){
+//            System.out.println(str2);
+//        }else{
+//            System.out.println("nothing");
+//        }
+*/
+
+        //cube
+/*    public static void cube(){
+
+        int n = new Scanner(System.in).nextInt();
+        System.out.println( n*(int)square(n));
+    }
+
+//    public static int square(int n) {
+//        return Math.pow(n,2);
+    public static double square(int n) {
+        return Math.pow(n,2);
+    }
+
+    public static void main(String[] args) {
+        cube();
+    }*/
+
     }
 }

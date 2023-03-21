@@ -6,7 +6,7 @@ public class ReallyNeverMind {
     public static void main(String[] args) {
         System.out.print("Enter a word: ");
         String aWord = new Scanner(System.in).nextLine();
-
+            // in three ways solution
             if (aWord.substring(aWord.length()-2).equals("ly")){
                 System.out.println("really???");
             } else {
