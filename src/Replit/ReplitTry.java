@@ -1,7 +1,7 @@
-package replit;
+//package replit;
 import java.lang.Math;
 import java.util.Scanner;
-public class replitTry {
+//public class replitTry {
     //public static void main(String[] args) {
         //DO NOT TOUCH BELOW
 //        Scanner s = new Scanner(System.in);
@@ -236,4 +236,4 @@ public class replitTry {
 //
 //    }
 
-}
+//}
