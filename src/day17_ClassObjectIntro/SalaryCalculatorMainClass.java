@@ -1,6 +1,6 @@
 package day17_ClassObjectIntro;
 
-public class SalaryCalculatorMainMethod {
+public class SalaryCalculatorMainClass {
     public static void main(String[] args) {
         SalaryCalculator salary1 = new SalaryCalculator();
         salary1.hourlyRate = 55;

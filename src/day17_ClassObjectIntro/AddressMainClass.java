@@ -1,6 +1,6 @@
 package day17_ClassObjectIntro;
 
-public class AddressMainMethod {
+public class AddressMainClass {
     public static void main(String[] args) {
         Address person1 = new Address();
         person1.buildingNumber = "7925";
