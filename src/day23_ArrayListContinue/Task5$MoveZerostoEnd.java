@@ -21,6 +21,7 @@ public class Task5$MoveZerostoEnd {
 //            }
 //        }
         int oldSize = list.size();            // here determined is the old size
+//        int countZeros = Collections.frequency(list, 0);     // this can be used  after zeros are removed the number of zeros to add to the end.
         list.removeIf(p->p == 0);
         int newSize = list.size();            // here the new size is determined to find out how many element is been removed in removeIf
         int toAdd = oldSize-newSize;

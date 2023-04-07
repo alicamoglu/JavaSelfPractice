@@ -12,6 +12,11 @@ public class CountUtility {
             }
         }
         return frequency;
-
+    }
+    public static boolean isOdd(int number1) {
+        return number1%2 != 0;
+    }
+    public static boolean isEven(int number1) {
+        return number1%2 == 0;
     }
 }

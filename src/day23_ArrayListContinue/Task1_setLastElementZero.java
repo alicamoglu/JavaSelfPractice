@@ -13,6 +13,7 @@ public class Task1_setLastElementZero {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         System.out.println(list);
         list.set(4,0);                      //         list.set(5,0);   Index 5 out of bounds for length 5
+        list.set(list.size()-1, 0);
         System.out.println(list);
 
         ArrayList<String> list2 = new ArrayList<>(Arrays.asList("Java","Python","C#","JavaScript"));
