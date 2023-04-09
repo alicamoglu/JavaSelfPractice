@@ -1,30 +1,16 @@
-package day18_MemoryManagement;
-/*
-3. Create a custom class named Offer
-        Attributes:
-        location
-        companyName
-        jobTitle
-        salary
-        hasBenefit
-        hasPTO
-        isWFH
-        isFullTime
-        Actions:
-        setInfo(): sets all the instance variables
-        toString(): returns the full info of the Offer Object
-        */
-public class OfferClass {
+package day25_DateTime_ConstructorsIntro;
+
+public class Task5_Offer {
     public String location,
-                    companyName,
-                    jobTitle;
+            companyName,
+            jobTitle;
     public double salary;
     public boolean hasBenefit,
-                    hasPTO,
-                    isWFH,
-                    isFullTime;
+            hasPTO,
+            isWFH,
+            isFullTime;
 
-    public void setInfo(String location, String companyName, String jobTitle, double salary, boolean hasBenefit, boolean hasPTO, boolean isWFH, boolean isFullTime) {
+    public Task5_Offer(String location, String companyName, String jobTitle, double salary, boolean hasBenefit, boolean hasPTO, boolean isWFH, boolean isFullTime) {
         this.location = location;
         this.companyName = companyName;
         this.jobTitle = jobTitle;
