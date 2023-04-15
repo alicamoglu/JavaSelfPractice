@@ -1,4 +1,4 @@
-package day26_ConstructorsCont_StaticsIntro;
+package day26_ConstructorsCont_StaticsIntro.CydeoStudentTask;
 
 import day26_ConstructorsCont_StaticsIntro.CydeoStudentTask.CydeoStudent;
 
@@ -18,6 +18,9 @@ public class Test {
 
         student1.printProgLanguage();
         student2.printProgLanguage();
+
+        CydeoStudent.printSchoolName();
+        CydeoStudent.printProgLanguage();
 
 
 

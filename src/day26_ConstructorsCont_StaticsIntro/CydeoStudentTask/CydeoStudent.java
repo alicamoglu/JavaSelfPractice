@@ -1,4 +1,4 @@
-package day26_ConstructorsCont_StaticsIntro;
+package day26_ConstructorsCont_StaticsIntro.CydeoStudentTask;
 
 /*1. CydeoStudent Task
         1. Create a class named CydeoStudent:
@@ -22,6 +22,17 @@ public class CydeoStudent {
 
     public static String schoolName = "Cydeo School";
     public static String magicWord = "Wooden Spoon";
+
+
+    public CydeoStudent(String name, int age, char gender, int id, int batchNumber, int groupNumber, char grade) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.id = id;
+        this.batchNumber = batchNumber;
+        this.groupNumber = groupNumber;
+        this.grade = grade;
+    }
 
     public void study(){
         System.out.println(name+" is studying");
