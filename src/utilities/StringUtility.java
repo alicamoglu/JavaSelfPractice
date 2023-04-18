@@ -30,5 +30,20 @@ public class StringUtility {
         }
         return true;
     }
+    public static boolean hasBlank(String str){
+        boolean flag = false;
+        for (int i = 0; i < str.length(); i++) {
+            (""+ str.charAt(i)).equals(" ");
+            flag = true;
+        }
+        return flag;
+    }
+/*    public static boolean isContain(String a,String b){
+        boolean r = false;
+        if (a.length()!=a.replaceAll(b,"").length()){
+            r = true;
+        }
+        return r;
+    }*/      // a.contains(b) //when both a & b are string there for this utility is no need
 
 }
