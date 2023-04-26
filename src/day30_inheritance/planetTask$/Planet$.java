@@ -65,8 +65,8 @@ public class Planet$ {
         this.population = population;
     }
 
-    public Planet$(String name, String surfaceGravity, double mass, double radius, double volume, double population) {
-        setName(name);             //this.name = name;
+    public Planet$(String surfaceGravity, double mass, double radius, double volume, double population) {
+        setName(getClass().getSimpleName());//setName(name); //this.name = name;
         setSurfaceGravity(surfaceGravity);               //this.surfaceGravity = surfaceGravity;
         setMass(mass);               //this.mass = mass;
         setRadius(radius);               //this.radius = radius;
