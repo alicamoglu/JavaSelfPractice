@@ -8,12 +8,12 @@ public class CountDuplicate {
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
-                if(arr[i].equals(arr[j])){
+                if (arr[i].equals(arr[j])) {
                     count++;
                 }
             }
-            if (1<count){
-            totalDup++;// += count;
+            if (1 < count) {
+                totalDup++;// += count;
             }
         }
         return totalDup;
@@ -21,8 +21,8 @@ public class CountDuplicate {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String [] strs = new String[in.nextInt()];
-        for(int i=0; i < strs.length; i++) {
+        String[] strs = new String[in.nextInt()];
+        for (int i = 0; i < strs.length; i++) {
             strs[i] = in.next();
         }
 
@@ -30,4 +30,16 @@ public class CountDuplicate {
 
     }
 
+
+//    public static class Item {
+//        public static void main(String[] args) {
+//
+//            // DO NOT TOUCH ANY CODE HERE
+//
+//            Scanner input = new Scanner(System.in);
+//            Item item = new Item(input.nextLine(), input.nextDouble());
+//            System.out.println(item);
+//
+//        }
+//    }
 }
